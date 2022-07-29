@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>biliver</title>
+    <style>
+    *{
+      font-family: cursive;
+
+    }
+    #ic{
+     margin-right: 3px;
+    }
+    </style>
+</head>
+<body>
+    <!-- nav logo -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-family: sans-sarif;"><i class="bi bi-c-circle-fill text-ligh" id="ic"></i>DISH-TECH</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  join-us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">DISHANT</a></li>
+                  <li><a class="dropdown-item" href="#">API</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">intership</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- slide bar -->
+  
+
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://geekflare.com/wp-content/uploads/2018/12/api.jpg" class="d-block w-100" alt="not found">
+    </div>
+    <div class="carousel-item">
+      <img src="data:image/png;base64,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" class="d-block w-100" alt="not found">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDjiuEKIQ5K1z41AUDksymC1HhDBPyTX2dZA&usqp=CAU" class="d-block w-100" alt="not found">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- h1 -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+         <h3 class="diplay-6 text-center mt-5 mb-5">This web-site can hendal  by Dishant 's API</h3>
+    </div>
+  </div>
+</div>
+<!-- fiture -->
+<div class="container-fluid">
+  <div class="row justify-content-evenly text-center pt-3 pb-3">
+    <div class="col-md-3 mb-2">
+      <i class="bi bi-currency-dollar text-primary"></i>
+      <h5>purchase our cours</h5>
+      <p>This couse  all type payment methed in bio get cartificat</p>
+    </div>
+    <div class="col-md-3 mb-2">
+      <i class="bi bi-person-plus-fill text-success"></i>
+      <h5> call by honer</h5>
+      <p>A cours has parchase in details and bile and  carticict  can  access to honer</p>
+    </div>
+    <div class="col-md-3 m-3">
+      <i class="bi bi-chat-left-text-fill text-danger"></i>
+      <h5>message in q&a</h5>
+       <p>All type of quary accan give responce in q&a section</p>
+    </div>
+  </div>
+</div>
+<br>
+<div class="form-floating mb-3">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">comment it :</label>
+</div>
+<button type="button" class="btn btn-primary" style="margin-left: 20px;">submit</button>
+<br><br>
+</body>
+</html>
